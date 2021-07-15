@@ -5,7 +5,8 @@ The `web_scrape_security.py` script is run by a cron job in the morning.  Anothe
   
 The cron job is set up as below using the command `crontab -e`:
 
-
-> # m h  dom mon dow   command
-> 10 5 * * * python3 web_scrape_security.py
-> 0 7 * * * ./push_to_github.sh
+```
+# m h  dom mon dow   command  
+10 5 * * * python3 web_scrape_security.py  
+0 7 * * * ./push_to_github.sh  
+```
