@@ -19,7 +19,6 @@ import pwd_google
 import os
 
 dtp = os.getcwd()
-print(dtp)
 to_list = "lorenazhang@gmail.com,jingyao.zhang@wellsfargo.com"
 
 def send_email(login
